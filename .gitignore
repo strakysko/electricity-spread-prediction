@@ -1,0 +1,28 @@
+# Ignore everything in the project root.
+ /*
+
+# Keep this configuration.
+!/.gitignore
+
+# Only this baseline notebook.
+/baselines/*
+!/baselines/
+!/baselines/baseline_v2.ipynb
+
+# Raw data and saved CV setup.
+/data/*
+!/data/
+!/data/raw/
+!/data/cv_setup.pkl
+
+# Entire EDA and experiments folders.
+!/EDA/
+!/experiments/
+
+# These two notebooks are in the project root.
+!/CV_split.ipynb
+!/final_nb.ipynb
+
+# Exclude generated Python/Jupyter cache folders anywhere.
+**/__pycache__/
+**/.ipynb_checkpoints/
